@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/K-Ride/static/css/main.ed25aa18.chunk.css",
+    "main.js": "/K-Ride/static/js/main.dcd99fbe.chunk.js",
+    "main.js.map": "/K-Ride/static/js/main.dcd99fbe.chunk.js.map",
+    "runtime-main.js": "/K-Ride/static/js/runtime-main.0394c68b.js",
+    "runtime-main.js.map": "/K-Ride/static/js/runtime-main.0394c68b.js.map",
+    "static/js/2.02c22e3d.chunk.js": "/K-Ride/static/js/2.02c22e3d.chunk.js",
+    "static/js/2.02c22e3d.chunk.js.map": "/K-Ride/static/js/2.02c22e3d.chunk.js.map",
+    "index.html": "/K-Ride/index.html",
+    "static/css/main.ed25aa18.chunk.css.map": "/K-Ride/static/css/main.ed25aa18.chunk.css.map",
+    "static/js/2.02c22e3d.chunk.js.LICENSE.txt": "/K-Ride/static/js/2.02c22e3d.chunk.js.LICENSE.txt",
+    "static/media/banner1.661c01ab.webp": "/K-Ride/static/media/banner1.661c01ab.webp",
+    "static/media/banner2.c3bfeaa8.webp": "/K-Ride/static/media/banner2.c3bfeaa8.webp",
+    "static/media/banner3.394d815a.webp": "/K-Ride/static/media/banner3.394d815a.webp",
+    "static/media/logo.e8f9d40c.webp": "/K-Ride/static/media/logo.e8f9d40c.webp",
+    "static/media/map1.7c9b490b.webp": "/K-Ride/static/media/map1.7c9b490b.webp",
+    "static/media/map2.3809f12d.webp": "/K-Ride/static/media/map2.3809f12d.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0394c68b.js",
+    "static/js/2.02c22e3d.chunk.js",
+    "static/css/main.ed25aa18.chunk.css",
+    "static/js/main.dcd99fbe.chunk.js"
+  ]
+}
