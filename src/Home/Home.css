@@ -1,0 +1,226 @@
+/* Image Slider */
+
+/* @keyframes slide {
+  0% { left: 0%; }
+  20% { left: 0%; }
+  40% { left: -100%; }
+  60% { left: -100%; }
+  80% { left: -200%; }
+  90% { left: -200%; }
+  100% { left: 0%; }
+}
+
+#slider { 
+  overflow: hidden;
+  z-index: -100;
+}
+
+#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  animation: 15s slide infinite;
+}
+
+#slider figure img {
+  height: 50vh;
+  width: 20%;
+  float: left;
+} */
+
+/* ---------------------------- */
+
+.mySlides {
+    border-radius: 5px;
+    display: none;
+}
+
+.mySlides img {
+    vertical-align: middle;
+    width: 100%;
+    height: 50vh;
+    border-radius: 5px;
+}
+
+.slideshow-container {
+    max-width: 1200px;
+    position: relative;
+    margin: 2rem auto 0 auto;
+}
+
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: rgb(216, 213, 213);
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.activeImage {
+    background-color: #717171;
+}
+
+/* .fadeImage {
+    -webkit-animation-name: fadeImage;
+    -webkit-animation-duration: 2s;
+    animation-name: fadeImage;
+    animation-duration: 2s;
+} */
+
+/* @-webkit-keyframes fadeImage {
+    from {
+        opacity: .6;
+    } 
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeImage {
+    from {
+        opacity: .6;
+    } 
+    to {
+        opacity: 1;
+    }
+} */
+
+/* ---------------------------- */
+
+/* Header Text */
+
+.header-text div img {
+  margin-top: 5rem;
+  margin-right: 2.5rem;
+  margin-left: 2.5rem;
+}
+
+.header-text div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-text div h1 {
+  color: rgb(255, 102, 0);
+  margin-top: 4rem;
+  font-size: 2.5rem;
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
+}
+
+.header-text div span {
+  font-size: 2.1rem;
+  color: green;
+}
+
+/* Cards */
+
+.cards {
+  max-width: 1200px;
+  margin: 5rem auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+
+.card {
+  border-radius: 2px;
+  background-color: #fff;
+  border: 5px solid dodgerblue;
+  color: #000;
+  padding: 1rem;
+  height: 22rem;
+  overflow: hidden;
+  margin: 1rem;
+}
+
+.card h3 {
+  font-size: 2.5rem;
+  margin: 1rem 0 2rem 0;
+}
+
+.card p {
+  font-size: 1.4rem;
+  word-spacing: 1px;
+  margin-bottom: 2rem;
+}
+
+.card a {
+  font-size: 1.4rem;
+  word-spacing: 1px;
+  text-decoration: none;
+}
+
+.card a:hover {
+  border-bottom: 1px solid #000;
+}
+
+.card img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Gov Images */
+
+.gov-images {
+  background-color: #ddd;
+  margin-bottom: 3rem;
+  /* padding: 1rem 0; */
+  display: flex;
+  justify-content: space-around;
+}
+
+/* .gov-images img {
+    margin: 0 10rem;
+} */
+
+/* Responsive */
+
+@media(max-width: 1110px) {
+  .header-text div {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+@media(max-width: 944px) {
+  #slider figure img {
+    height: auto;
+  }
+  .mySlides {
+    border-radius: 0;
+  }
+
+  .mySlides img {
+    border-radius: 0;
+  }
+
+  .slideshow-container {
+    margin: 0 auto 0 auto;
+  }
+}
+
+@media(max-width: 617px) {
+  .gov-images img {
+    margin: 0 5rem;
+  }
+}
+
+/* @media(max-width: 919px) {
+  .gov-images {
+    display: none;
+  }
+} */

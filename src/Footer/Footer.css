@@ -1,0 +1,128 @@
+.footer {
+  background: #333;
+  color: #fff;
+  height: 400px;
+  font-size: 1.5rem;
+  position: relative;
+  overflow: hidden;
+}
+
+.footer .footer-content {
+  height: 350px;
+  display: flex;
+}
+
+.footer .footer-content .footer-section {
+  flex: 1;
+  padding: 20px;
+  border-right: 1px solid #fff;
+}
+
+.footer .footer-content .footer-links ul a {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+  text-decoration: none;
+  transition: all .3s;
+}
+
+.footer .footer-content .footer-links ul a:hover {
+  color: lightgrey;
+}
+
+.footer .footer-content .footer-contact button {
+  padding: 10px 20px;
+  border: none;
+  outline: none;
+  background-color: turquoise;
+  border-radius: 100px;
+  transition: all .2s linear;
+}
+
+.footer .footer-content .footer-contact button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.footer .footer-content .footer-contact p {
+  margin-bottom: 4px;
+}
+
+.footer .footer-content .footer-contact a {
+  color: #000;
+  text-decoration: none;
+}
+
+.footer .footer-content .footer-image img {
+  background: #fff;
+  border-radius: 50%;
+}
+
+.footer .footer-bottom {
+  background: #333;
+  border-top: 1px solid #fff;
+  height: auto;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  overflow: hidden;
+}
+
+.footer .footer-image .social-media-icons {
+  font-size: 2.5rem;
+  margin: 1rem;
+  color: #fff;
+}
+
+@media(max-width: 1375px) {
+  .footer .footer-content .footer-image h2 {
+    font-size: 2rem;
+  }
+  .footer .footer-content .footer-image h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 1003px) {
+  .footer .footer-content .footer-image h2 {
+    font-size: 1.8rem;
+  }
+  .footer .footer-content .footer-image h3 {
+    font-size: 1.3rem;
+  }
+  .footer .footer-content .footer-links h4 {
+    font-size: 1.4rem;
+  }
+}
+
+@media(max-width: 944px) {
+  .footer .footer-content .footer-links h3 {
+    font-size: 1.5rem;
+  }
+}
+
+@media(max-width: 825px) {
+  .footer .footer-content .footer-section {
+    padding: 15px;
+  }
+}
+
+@media(max-width: 795px) {
+  .footer {
+    overflow: auto;
+    height: auto;
+  }
+  .footer .footer-content {
+    flex-direction: column;
+    height: auto;
+  }
+  .footer .footer-content .footer-section {
+    border-right: none;
+    border-bottom: 1px solid #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+  .footer .footer-bottom {
+    height: auto;
+  }
+}
